@@ -1,5 +1,5 @@
 #import <Foundation/Foundation.h>
-#include <rootless.h>
+#import <roothide.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
