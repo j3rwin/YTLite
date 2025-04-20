@@ -137,6 +137,9 @@ jobs:
       - name: Download YouTube Plus
         id: download_ytp
         run: |
+          cd ${{ github.workspace }}
+          pwd
+          ls
           make clean package DEBUG=0 FINALPACKAGE=1
           mv packages/*.deb ${{ github.workspace }}/ytplus.deb
 
