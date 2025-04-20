@@ -1,9 +1,5 @@
 #import <Foundation/Foundation.h>
-#if defined(THEOS_PACKAGE_SCHEME_ROOTLESS)
 #include <rootless.h>
-#elif defined(THEOS_PACKAGE_SCHEME_ROOTHIDE)
-#include <roothide.h>
-#endif
 
 NS_ASSUME_NONNULL_BEGIN
 
