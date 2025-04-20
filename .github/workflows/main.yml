@@ -72,6 +72,8 @@ jobs:
   build:
     name: 
     runs-on: macos-latest
+    env:
+      THEOS: ${{ github.workspace }}/theos
     permissions:
       contents: write
 
