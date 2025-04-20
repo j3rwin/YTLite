@@ -137,7 +137,7 @@ jobs:
       - name: Download YouTube Plus
         id: download_ytp
         run: |
-          cd ${{ github.workspace }}
+          cd ${{ github.workspace }}/main
           pwd
           ls
           make clean package DEBUG=0 FINALPACKAGE=1
